@@ -1,0 +1,72 @@
+[97.068786621] 2018-02-23 23:10:19,389 - INFO - launcher: Starting sanity checks
+[98.068237305] 2018-02-23 23:10:19,390 - INFO - launcher: Checking for Python 3.5+
+[98.569154739] 2018-02-23 23:10:19,391 - INFO - launcher: Checking console encoding
+[99.568605423] 2018-02-23 23:10:19,392 - INFO - launcher: Setting console encoding to UTF-8
+[100.070238113] 2018-02-23 23:10:19,392 - INFO - launcher: Ensuring we're in the right environment
+[103.596210480] 2018-02-23 23:10:19,396 - INFO - launcher: Adding local bins/ folder to path
+[105.568408966] 2018-02-23 23:10:19,398 - INFO - launcher: Required checks passed.
+[110.224246979] 2018-02-23 23:10:19,402 - INFO - launcher: Optional checks passed.
+[111.224412918] 2018-02-23 23:10:19,403 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[3.9917640686035156] 2018-02-23 23:10:23,284 - DEBUG - musicbot.bot | In bot.py::MainThread(9944), line 213 in _setup_logging: Set logging level to INFO
+[3.9922664165496826] 2018-02-23 23:10:23,284 - INFO - musicbot.bot | In bot.py::MainThread(9944), line 80 in __init__: =========== MusicBot (version 1.9.6_3) ===========
+[3.9940807819366455] 2018-02-23 23:10:23,286 - WARNING - musicbot.bot | In bot.py::MainThread(9944), line 83 in __init__: Autoplaylist is empty, disabling.
+[3.998921871] launcher-INFO: Connecting
+[6.7383887767791748] 2018-02-23 23:10:26,030 - DEBUG - musicbot.bot | In bot.py::MainThread(9944), line 1011 in on_ready: Connection established, ready to go.
+[6.7389152050018311] 2018-02-23 23:10:26,031 - DEBUG - musicbot.bot | In bot.py::MainThread(9944), line 324 in _cache_app_info: Caching app info
+[6.8787620067596436] 2018-02-23 23:10:26,171 - DEBUG - musicbot.bot | In bot.py::MainThread(9944), line 828 in _scheck_ensure_env: Ensuring data folders exist
+[6.8817927837371826] 2018-02-23 23:10:26,174 - DEBUG - musicbot.bot | In bot.py::MainThread(9944), line 844 in _scheck_server_permissions: Checking server permissions
+[6.8822927474975586] 2018-02-23 23:10:26,174 - DEBUG - musicbot.bot | In bot.py::MainThread(9944), line 848 in _scheck_autoplaylist: Auditing autoplaylist
+[6.8827934265136719] 2018-02-23 23:10:26,175 - DEBUG - musicbot.bot | In bot.py::MainThread(9944), line 852 in _scheck_configs: Validating config
+[6.8832938671112061] 2018-02-23 23:10:26,175 - DEBUG - musicbot.config | In config.py::MainThread(9944), line 155 in async_validate: Validating options...
+[6.8837943077087402] 2018-02-23 23:10:26,176 - DEBUG - musicbot.bot | In bot.py::MainThread(9944), line 855 in _scheck_configs: Validating permissions config
+[6.8842957019805908] 2018-02-23 23:10:26,176 - DEBUG - musicbot.permissions | In permissions.py::MainThread(9944), line 59 in async_validate: Validating permissions...
+[6.8847949504852295] 2018-02-23 23:10:26,177 - INFO - musicbot.bot | In bot.py::MainThread(9944), line 1022 in on_ready: Connected to Discord!
+[6.8862960338592529] 2018-02-23 23:10:26,178 - INFO - musicbot.bot | In bot.py::MainThread(9944), line 1032 in on_ready: Bot:   416700338343641088/WIZZ SERVER ❆#5554 [BOT]
+[6.8882691860198975] 2018-02-23 23:10:26,180 - INFO - musicbot.bot | In bot.py::MainThread(9944), line 1040 in on_ready: Owner: 297832577782382592/Wizz#7897
+
+[6.8892731666564941] 2018-02-23 23:10:26,181 - INFO - musicbot.bot | In bot.py::MainThread(9944), line 1043 in on_ready: Server List:
+[6.8907902240753174] 2018-02-23 23:10:26,183 - INFO - musicbot.bot | In bot.py::MainThread(9944), line 1044 in <listcomp>:  - WIZZ SERVER ❆
+[6.8923013210296631] 2018-02-23 23:10:26,184 - INFO - musicbot.bot | In bot.py::MainThread(9944), line 1088 in on_ready: Not bound to any text channels
+[6.8952727317810059] 2018-02-23 23:10:26,187 - INFO - musicbot.bot | In bot.py::MainThread(9944), line 1114 in on_ready: Not autojoining any voice channels
+[6.8967814445495605] 2018-02-23 23:10:26,189 - INFO - musicbot.bot | In bot.py::MainThread(9944), line 1118 in on_ready: Options:
+[6.8982789516448975] 2018-02-23 23:10:26,190 - INFO - musicbot.bot | In bot.py::MainThread(9944), line 1120 in on_ready:   Command prefix: w!
+[6.8997764587402344] 2018-02-23 23:10:26,192 - INFO - musicbot.bot | In bot.py::MainThread(9944), line 1121 in on_ready:   Default volume: 25%
+[6.9012849330902100] 2018-02-23 23:10:26,193 - INFO - musicbot.bot | In bot.py::MainThread(9944), line 1123 in on_ready:   Skip threshold: 4 votes or 50%
+[6.9027862548828125] 2018-02-23 23:10:26,195 - INFO - musicbot.bot | In bot.py::MainThread(9944), line 1124 in on_ready:   Now Playing @mentions: Disabled
+[6.9053099155426025] 2018-02-23 23:10:26,197 - INFO - musicbot.bot | In bot.py::MainThread(9944), line 1125 in on_ready:   Auto-Summon: Disabled
+[6.9068105220794678] 2018-02-23 23:10:26,199 - INFO - musicbot.bot | In bot.py::MainThread(9944), line 1126 in on_ready:   Auto-Playlist: Disabled
+[6.9082832336425781] 2018-02-23 23:10:26,200 - INFO - musicbot.bot | In bot.py::MainThread(9944), line 1127 in on_ready:   Auto-Pause: Disabled
+[6.9103128910064697] 2018-02-23 23:10:26,202 - INFO - musicbot.bot | In bot.py::MainThread(9944), line 1128 in on_ready:   Delete Messages: Enabled
+[6.9163174629211426] 2018-02-23 23:10:26,208 - INFO - musicbot.bot | In bot.py::MainThread(9944), line 1130 in on_ready:     Delete Invoking: Disabled
+[6.9182903766632080] 2018-02-23 23:10:26,210 - INFO - musicbot.bot | In bot.py::MainThread(9944), line 1131 in on_ready:   Debug Mode: Disabled
+[6.9217419624328613] 2018-02-23 23:10:26,214 - INFO - musicbot.bot | In bot.py::MainThread(9944), line 1132 in on_ready:   Downloaded songs will be deleted
+[39.6772778034210205] 2018-02-23 23:10:58,969 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(9944), line 2564 in on_voice_state_update: Voice state update for 297832577782382592/Wizz#7897 on WIZZ SERVER ❆/MUSIC ♬ -> [CONNECT, MUTE]
+[45.6179821491241455] 2018-02-23 23:11:04,910 - INFO - musicbot.bot | In bot.py::MainThread(9944), line 2395 in on_message: 297832577782382592/Wizz#7897: w!play https://www.youtube.com/watch?v=8SbYksoM0OQ
+[45.6209554672241211] 2018-02-23 23:11:04,913 - ERROR - musicbot.bot | In bot.py::MainThread(9944), line 2515 in on_message: Error in play: CommandError: The bot is not in a voice channel.  Use w!summon to summon it to your voice channel.
+Traceback (most recent call last):
+  File "C:\Users\Nicklas\Documents\MusicBot\musicbot\bot.py", line 2423, in on_message
+    handler_kwargs['player'] = await self.get_player(message.channel)
+  File "C:\Users\Nicklas\Documents\MusicBot\musicbot\bot.py", line 563, in get_player
+    'Use %ssummon to summon it to your voice channel.' % self.config.command_prefix)
+musicbot.exceptions.CommandError: The bot is not in a voice channel.  Use w!summon to summon it to your voice channel.
+[51.3388974666595459] 2018-02-23 23:11:10,631 - INFO - musicbot.bot | In bot.py::MainThread(9944), line 2395 in on_message: 297832577782382592/Wizz#7897: w!summon
+[51.3408761024475098] 2018-02-23 23:11:10,633 - INFO - musicbot.bot | In bot.py::MainThread(9944), line 1804 in cmd_summon: Joining WIZZ SERVER ❆/MUSIC ♬
+[51.3423998355865479] 2018-02-23 23:11:10,634 - DEBUG - musicbot.bot | In bot.py::MainThread(9944), line 437 in get_voice_client: Connection attempt 1 to MUSIC ♬
+[51.3428773880004883] 2018-02-23 23:11:10,635 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(9944), line 376 in join_voice_channel: (join_voice_channel) creating futures
+[51.3439011573791504] 2018-02-23 23:11:10,636 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(9944), line 382 in join_voice_channel: (join_voice_channel) setting voice state
+[51.3453738689422607] 2018-02-23 23:11:10,637 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(9944), line 385 in join_voice_channel: (join_voice_channel) waiting for session id
+[51.5991101264953613] 2018-02-23 23:11:10,891 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(9944), line 2564 in on_voice_state_update: Voice state update for 416700338343641088/WIZZ SERVER ❆#5554 on WIZZ SERVER ❆/MUSIC ♬ -> [JOIN, CONNECT]
+[51.5996105670928955] 2018-02-23 23:11:10,892 - INFO - musicbot.bot | In bot.py::MainThread(9944), line 2575 in on_voice_state_update: 416700338343641088/WIZZ SERVER ❆#5554 has joined WIZZ SERVER ❆/MUSIC ♬
+[51.6020839214324951] 2018-02-23 23:11:10,894 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(9944), line 389 in join_voice_channel: (join_voice_channel) waiting for voice data
+[51.6030843257904053] 2018-02-23 23:11:10,895 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(9944), line 403 in join_voice_channel: (join_voice_channel) connecting...
+[51.8783025741577148] 2018-02-23 23:11:11,170 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(9944), line 415 in join_voice_channel: (join_voice_channel) connection successful
+[51.8788154125213623] 2018-02-23 23:11:11,171 - DEBUG - musicbot.bot | In bot.py::MainThread(9944), line 463 in get_voice_client: Connected in 0.5s
+[51.8788154125213623] 2018-02-23 23:11:11,171 - INFO - musicbot.bot | In bot.py::MainThread(9944), line 464 in get_voice_client: Connected to WIZZ SERVER ❆/MUSIC ♬
+[51.8818166255950928] 2018-02-23 23:11:11,174 - VOICEDEBUG - musicbot.player | In player.py::MainThread(9944), line 311 in websocket_check: Starting websocket check loop for WIZZ SERVER ❆
+[55.7402093410491943] 2018-02-23 23:11:15,032 - INFO - musicbot.bot | In bot.py::MainThread(9944), line 2395 in on_message: 297832577782382592/Wizz#7897: w!play https://www.youtube.com/watch?v=8SbYksoM0OQ
+[58.6393291950225830] 2018-02-23 23:11:17,931 - DEBUG - musicbot.bot | In bot.py::MainThread(9944), line 781 in serialize_queue: Serializing queue for 363629152600850433
+[60.6458277702331543] 2018-02-23 23:11:19,938 - FFMPEG - musicbot.player | In player.py::MainThread(9944), line 268 in _play: Creating player with options: -nostdin -vn https://manifest.googlevideo.com/api/manifest/hls_playlist/id/8SbYksoM0OQ.1/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/cmbypass/yes/goi/160/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/hls_chunk_host/r5---sn-5goeen76.googlevideo.com/playlist_type/DVR/gcr/se/ei/hJGQWva9As-lYKPKsKgK/mm/32/mn/sn-5goeen76/ms/lv/mv/u/pl/20/dover/10/manifest_duration/30/playlist_duration/30/keepalive/yes/beids/%5B9466593%5D/mt/1519423773/ip/81.232.18.113/ipbits/0/expire/1519445476/sparams/ip,ipbits,expire,id,itag,source,requiressl,ratebypass,live,cmbypass,goi,sgoap,sgovp,hls_chunk_host,playlist_type,gcr,ei,mm,mn,ms,mv,pl/signature/3BA89C912736DB8EADFE5599BD16D8F798492F50.5D2747B9EB85D86FEC88790EA13B672596D45264/key/dg_yt0/playlist/index.m3u8
+[62.7451550960540771] 2018-02-23 23:11:22,037 - DEBUG - musicbot.bot | In bot.py::MainThread(9944), line 781 in serialize_queue: Serializing queue for 363629152600850433

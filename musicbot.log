@@ -1,0 +1,71 @@
+[95.537185669] 2018-02-23 23:13:46,969 - INFO - launcher: Starting sanity checks
+[96.540927887] 2018-02-23 23:13:46,970 - INFO - launcher: Checking for Python 3.5+
+[97.538471222] 2018-02-23 23:13:46,971 - INFO - launcher: Checking console encoding
+[98.038673401] 2018-02-23 23:13:46,971 - INFO - launcher: Setting console encoding to UTF-8
+[98.539352417] 2018-02-23 23:13:46,972 - INFO - launcher: Ensuring we're in the right environment
+[102.042198181] 2018-02-23 23:13:46,975 - INFO - launcher: Adding local bins/ folder to path
+[104.042768478] 2018-02-23 23:13:46,977 - INFO - launcher: Required checks passed.
+[108.577966690] 2018-02-23 23:13:46,982 - INFO - launcher: Optional checks passed.
+[109.670162201] 2018-02-23 23:13:46,983 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[4.0130302906036377] 2018-02-23 23:13:50,886 - DEBUG - musicbot.bot | In bot.py::MainThread(1408), line 213 in _setup_logging: Set logging level to INFO
+[4.0135312080383301] 2018-02-23 23:13:50,887 - INFO - musicbot.bot | In bot.py::MainThread(1408), line 80 in __init__: =========== MusicBot (version 1.9.6_3) ===========
+[4.0150067806243896] 2018-02-23 23:13:50,888 - WARNING - musicbot.bot | In bot.py::MainThread(1408), line 83 in __init__: Autoplaylist is empty, disabling.
+[4.019170523] launcher-INFO: Connecting
+[6.6522707939147949] 2018-02-23 23:13:53,525 - DEBUG - musicbot.bot | In bot.py::MainThread(1408), line 1011 in on_ready: Connection established, ready to go.
+[6.6527953147888184] 2018-02-23 23:13:53,526 - DEBUG - musicbot.bot | In bot.py::MainThread(1408), line 324 in _cache_app_info: Caching app info
+[6.8048589229583740] 2018-02-23 23:13:53,678 - DEBUG - musicbot.bot | In bot.py::MainThread(1408), line 828 in _scheck_ensure_env: Ensuring data folders exist
+[6.8083620071411133] 2018-02-23 23:13:53,682 - DEBUG - musicbot.bot | In bot.py::MainThread(1408), line 844 in _scheck_server_permissions: Checking server permissions
+[6.8088688850402832] 2018-02-23 23:13:53,682 - DEBUG - musicbot.bot | In bot.py::MainThread(1408), line 848 in _scheck_autoplaylist: Auditing autoplaylist
+[6.8093636035919189] 2018-02-23 23:13:53,683 - DEBUG - musicbot.bot | In bot.py::MainThread(1408), line 852 in _scheck_configs: Validating config
+[6.8098633289337158] 2018-02-23 23:13:53,683 - DEBUG - musicbot.config | In config.py::MainThread(1408), line 155 in async_validate: Validating options...
+[6.8103702068328857] 2018-02-23 23:13:53,684 - DEBUG - musicbot.bot | In bot.py::MainThread(1408), line 855 in _scheck_configs: Validating permissions config
+[6.8108704090118408] 2018-02-23 23:13:53,684 - DEBUG - musicbot.permissions | In permissions.py::MainThread(1408), line 59 in async_validate: Validating permissions...
+[6.8118648529052734] 2018-02-23 23:13:53,685 - INFO - musicbot.bot | In bot.py::MainThread(1408), line 1022 in on_ready: Connected to Discord!
+[6.8133659362792969] 2018-02-23 23:13:53,687 - INFO - musicbot.bot | In bot.py::MainThread(1408), line 1032 in on_ready: Bot:   416700338343641088/WIZZ SERVER ❆#5554 [BOT]
+[6.8153696060180664] 2018-02-23 23:13:53,689 - INFO - musicbot.bot | In bot.py::MainThread(1408), line 1040 in on_ready: Owner: 297832577782382592/Wizz#7897
+
+[6.8168742656707764] 2018-02-23 23:13:53,690 - INFO - musicbot.bot | In bot.py::MainThread(1408), line 1043 in on_ready: Server List:
+[6.8183708190917969] 2018-02-23 23:13:53,692 - INFO - musicbot.bot | In bot.py::MainThread(1408), line 1044 in <listcomp>:  - WIZZ SERVER ❆
+[6.8198702335357666] 2018-02-23 23:13:53,693 - INFO - musicbot.bot | In bot.py::MainThread(1408), line 1088 in on_ready: Not bound to any text channels
+[6.8208713531494141] 2018-02-23 23:13:53,694 - INFO - musicbot.bot | In bot.py::MainThread(1408), line 1114 in on_ready: Not autojoining any voice channels
+[6.8228800296783447] 2018-02-23 23:13:53,696 - INFO - musicbot.bot | In bot.py::MainThread(1408), line 1118 in on_ready: Options:
+[6.8243734836578369] 2018-02-23 23:13:53,698 - INFO - musicbot.bot | In bot.py::MainThread(1408), line 1120 in on_ready:   Command prefix: w!
+[6.8258743286132812] 2018-02-23 23:13:53,699 - INFO - musicbot.bot | In bot.py::MainThread(1408), line 1121 in on_ready:   Default volume: 25%
+[6.8268756866455078] 2018-02-23 23:13:53,700 - INFO - musicbot.bot | In bot.py::MainThread(1408), line 1123 in on_ready:   Skip threshold: 4 votes or 50%
+[6.8283784389495850] 2018-02-23 23:13:53,702 - INFO - musicbot.bot | In bot.py::MainThread(1408), line 1124 in on_ready:   Now Playing @mentions: Disabled
+[6.8298778533935547] 2018-02-23 23:13:53,703 - INFO - musicbot.bot | In bot.py::MainThread(1408), line 1125 in on_ready:   Auto-Summon: Disabled
+[6.8308856487274170] 2018-02-23 23:13:53,704 - INFO - musicbot.bot | In bot.py::MainThread(1408), line 1126 in on_ready:   Auto-Playlist: Disabled
+[6.8323943614959717] 2018-02-23 23:13:53,706 - INFO - musicbot.bot | In bot.py::MainThread(1408), line 1127 in on_ready:   Auto-Pause: Disabled
+[6.8339128494262695] 2018-02-23 23:13:53,707 - INFO - musicbot.bot | In bot.py::MainThread(1408), line 1128 in on_ready:   Delete Messages: Enabled
+[6.8348805904388428] 2018-02-23 23:13:53,708 - INFO - musicbot.bot | In bot.py::MainThread(1408), line 1130 in on_ready:     Delete Invoking: Disabled
+[6.8368864059448242] 2018-02-23 23:13:53,710 - INFO - musicbot.bot | In bot.py::MainThread(1408), line 1131 in on_ready:   Debug Mode: Disabled
+[6.8383920192718506] 2018-02-23 23:13:53,712 - INFO - musicbot.bot | In bot.py::MainThread(1408), line 1132 in on_ready:   Downloaded songs will be deleted
+[6.8413858413696289] 2018-02-23 23:13:53,715 - INFO - musicbot.bot | In bot.py::MainThread(1408), line 252 in _join_startup_channels: Found resumable voice channel WIZZ SERVER ❆/MUSIC ♬
+[6.8428859710693359] 2018-02-23 23:13:53,716 - INFO - musicbot.bot | In bot.py::MainThread(1408), line 267 in _join_startup_channels: Attempting to join WIZZ SERVER ❆/MUSIC ♬
+[6.8443870544433594] 2018-02-23 23:13:53,718 - DEBUG - musicbot.bot | In bot.py::MainThread(1408), line 437 in get_voice_client: Connection attempt 1 to MUSIC ♬
+[6.8448877334594727] 2018-02-23 23:13:53,718 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1408), line 376 in join_voice_channel: (join_voice_channel) creating futures
+[6.8458933830261230] 2018-02-23 23:13:53,719 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1408), line 382 in join_voice_channel: (join_voice_channel) setting voice state
+[6.8468899726867676] 2018-02-23 23:13:53,720 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1408), line 385 in join_voice_channel: (join_voice_channel) waiting for session id
+[6.9732708930969238] 2018-02-23 23:13:53,846 - DEBUG - musicbot.bot | In bot.py::MainThread(1408), line 2552 in on_voice_state_update: Resumed voice connection to WIZZ SERVER ❆/MUSIC ♬
+[6.9747710227966309] 2018-02-23 23:13:53,848 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1408), line 2564 in on_voice_state_update: Voice state update for 416700338343641088/WIZZ SERVER ❆#5554 on WIZZ SERVER ❆/MUSIC ♬ -> [RESUME, CONNECT]
+[6.9757723808288574] 2018-02-23 23:13:53,849 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1408), line 389 in join_voice_channel: (join_voice_channel) waiting for voice data
+[7.0595068931579590] 2018-02-23 23:13:53,933 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1408), line 403 in join_voice_channel: (join_voice_channel) connecting...
+[7.3365454673767090] 2018-02-23 23:13:54,210 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1408), line 415 in join_voice_channel: (join_voice_channel) connection successful
+[7.3370232582092285] 2018-02-23 23:13:54,210 - DEBUG - musicbot.bot | In bot.py::MainThread(1408), line 463 in get_voice_client: Connected in 0.5s
+[7.3375170230865479] 2018-02-23 23:13:54,211 - INFO - musicbot.bot | In bot.py::MainThread(1408), line 464 in get_voice_client: Connected to WIZZ SERVER ❆/MUSIC ♬
+[7.3395247459411621] 2018-02-23 23:13:54,213 - DEBUG - musicbot.bot | In bot.py::MainThread(1408), line 805 in deserialize_queue: Deserializing queue for 363629152600850433
+[7.6984126567840576] 2018-02-23 23:13:54,572 - DEBUG - musicbot.bot | In bot.py::MainThread(1408), line 555 in get_player: Created player via deserialization for server 363629152600850433 with 1 entries
+[7.6989107131958008] 2018-02-23 23:13:54,572 - INFO - musicbot.bot | In bot.py::MainThread(1408), line 283 in _join_startup_channels: Joined WIZZ SERVER ❆/MUSIC ♬
+[7.7009060382843018] 2018-02-23 23:13:54,574 - VOICEDEBUG - musicbot.player | In player.py::MainThread(1408), line 311 in websocket_check: Starting websocket check loop for WIZZ SERVER ❆
+[7.7014062404632568] 2018-02-23 23:13:54,575 - FFMPEG - musicbot.player | In player.py::MainThread(1408), line 268 in _play: Creating player with options: -nostdin -vn https://manifest.googlevideo.com/api/manifest/hls_playlist/id/8SbYksoM0OQ.1/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/cmbypass/yes/goi/160/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/hls_chunk_host/r5---sn-5goeen76.googlevideo.com/playlist_type/DVR/gcr/se/ei/hJGQWva9As-lYKPKsKgK/mm/32/mn/sn-5goeen76/ms/lv/mv/u/pl/20/dover/10/manifest_duration/30/playlist_duration/30/keepalive/yes/beids/%5B9466593%5D/mt/1519423773/ip/81.232.18.113/ipbits/0/expire/1519445476/sparams/ip,ipbits,expire,id,itag,source,requiressl,ratebypass,live,cmbypass,goi,sgoap,sgovp,hls_chunk_host,playlist_type,gcr,ei,mm,mn,ms,mv,pl/signature/3BA89C912736DB8EADFE5599BD16D8F798492F50.5D2747B9EB85D86FEC88790EA13B672596D45264/key/dg_yt0/playlist/index.m3u8
+[8.0619380474090576] 2018-02-23 23:13:54,935 - DEBUG - musicbot.bot | In bot.py::MainThread(1408), line 781 in serialize_queue: Serializing queue for 363629152600850433
+[260.3198220729827881] 2018-02-23 23:18:07,193 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1408), line 2564 in on_voice_state_update: Voice state update for 297832577782382592/Wizz#7897 on WIZZ SERVER ❆/MUSIC ♬ -> [DEAFEN]
+[1270.2496500015258789] 2018-02-23 23:34:57,123 - DEBUG - musicbot.player | In player.py::MainThread(1408), line 197 in _playback_finished: Deleting file: https:\manifest.googlevideo.com\api\manifest\hls_playlist\id\8SbYksoM0OQ.1\itag\95\source\yt_live_broadcast\requiressl\yes\ratebypass\yes\live\1\cmbypass\yes\goi\160\sgoap\gir%3Dyes%3Bitag%3D140\sgovp\gir%3Dyes%3Bitag%3D136\hls_chunk_host\r5---sn-5goeen76.googlevideo.com\playlist_type\DVR\gcr\se\ei\hJGQWva9As-lYKPKsKgK\mm\32\mn\sn-5goeen76\ms\lv\mv\u\pl\20\dover\10\manifest_duration\30\playlist_duration\30\keepalive\yes\beids\%5B9466593%5D\mt\1519423773\ip\81.232.18.113\ipbits\0\expire\1519445476\sparams\ip,ipbits,expire,id,itag,source,requiressl,ratebypass,live,cmbypass,goi,sgoap,sgovp,hls_chunk_host,playlist_type,gcr,ei,mm,mn,ms,mv,pl\signature\3BA89C912736DB8EADFE5599BD16D8F798492F50.5D2747B9EB85D86FEC88790EA13B672596D45264\key\dg_yt0\playlist\index.m3u8
+[1270.2511653900146484] 2018-02-23 23:34:57,124 - ERROR - musicbot.player | In player.py::MainThread(1408), line 227 in _delete_file: Error trying to delete https://manifest.googlevideo.com/api/manifest/hls_playlist/id/8SbYksoM0OQ.1/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/cmbypass/yes/goi/160/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/hls_chunk_host/r5---sn-5goeen76.googlevideo.com/playlist_type/DVR/gcr/se/ei/hJGQWva9As-lYKPKsKgK/mm/32/mn/sn-5goeen76/ms/lv/mv/u/pl/20/dover/10/manifest_duration/30/playlist_duration/30/keepalive/yes/beids/%5B9466593%5D/mt/1519423773/ip/81.232.18.113/ipbits/0/expire/1519445476/sparams/ip,ipbits,expire,id,itag,source,requiressl,ratebypass,live,cmbypass,goi,sgoap,sgovp,hls_chunk_host,playlist_type,gcr,ei,mm,mn,ms,mv,pl/signature/3BA89C912736DB8EADFE5599BD16D8F798492F50.5D2747B9EB85D86FEC88790EA13B672596D45264/key/dg_yt0/playlist/index.m3u8
+Traceback (most recent call last):
+  File "C:\Users\Nicklas\Documents\MusicBot\musicbot\player.py", line 219, in _delete_file
+    os.unlink(filename)
+FileNotFoundError: [WinError 3] Det går inte att hitta sökvägen: 'https://manifest.googlevideo.com/api/manifest/hls_playlist/id/8SbYksoM0OQ.1/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/cmbypass/yes/goi/160/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/hls_chunk_host/r5---sn-5goeen76.googlevideo.com/playlist_type/DVR/gcr/se/ei/hJGQWva9As-lYKPKsKgK/mm/32/mn/sn-5goeen76/ms/lv/mv/u/pl/20/dover/10/manifest_duration/30/playlist_duration/30/keepalive/yes/beids/%5B9466593%5D/mt/1519423773/ip/81.232.18.113/ipbits/0/expire/1519445476/sparams/ip,ipbits,expire,id,itag,source,requiressl,ratebypass,live,cmbypass,goi,sgoap,sgovp,hls_chunk_host,playlist_type,gcr,ei,mm,mn,ms,mv,pl/signature/3BA89C912736DB8EADFE5599BD16D8F798492F50.5D2747B9EB85D86FEC88790EA13B672596D45264/key/dg_yt0/playlist/index.m3u8'
